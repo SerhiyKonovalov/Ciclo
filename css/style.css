@@ -361,6 +361,7 @@ body ::selection {
   font-weight: 700;
   color: #e3e6ec;
   position: absolute;
+  z-index: 10;
   top: 50%;
   -webkit-transform: translate(50%,-50%);
   transform: translate(50%,-50%);
@@ -1605,7 +1606,7 @@ body ::selection {
   }
   .page__section::after {
     top: 0;
-    right: 50%;
+    right: 50%!important;
     -webkit-transform: translate(50%,.9375rem);
     transform: translate(50%,.9375rem)
   }
