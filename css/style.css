@@ -369,7 +369,7 @@ body ::selection {
   content: counter(item,decimal-leading-zero)
 }
 .screen-01__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   justify-content: center;
   align-items: center
@@ -415,7 +415,7 @@ body ::selection {
   object-fit: cover
 }
 .screen-02__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
@@ -451,7 +451,7 @@ body ::selection {
   transition: transform .7s .4s,opacity .7s .4s,-webkit-transform .7s .4s
 }
 .screen-03__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center
@@ -537,7 +537,7 @@ body ::selection {
   background: #1c1f25
 }
 .screen-04__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   align-content: center;
   padding-block: 4.6875rem
@@ -584,7 +584,7 @@ body ::selection {
   color: #1c1f25
 }
 .screen-05__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center
@@ -614,7 +614,7 @@ body ::selection {
   transition: transform .7s .7s,opacity .7s .7s,-webkit-transform .7s .7s
 }
 .screen-06__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
@@ -625,7 +625,7 @@ body ::selection {
 }
 .screen-07__container {
   overflow-x: hidden;
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center
@@ -681,7 +681,7 @@ body ::selection {
   transition: transform .7s .6s,opacity .7s .6s,-webkit-transform .7s .6s
 }
 .screen-08__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center
@@ -819,7 +819,7 @@ body ::selection {
   transform: scale(1.05)
 }
 .screen-10__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   justify-content: center;
   align-items: center
@@ -907,7 +907,7 @@ body ::selection {
   transform: scale(1.05)
 }
 .screen-11__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
@@ -989,7 +989,7 @@ body ::selection {
   width: 100%
 }
 .screen-12__container {
-  min-height: 100vh;
+  min-height: 100svh;
   display: grid;
   justify-items: center;
   align-items: center
@@ -1611,7 +1611,7 @@ body ::selection {
     transform: translate(50%,.9375rem)
   }
   .screen-01__body {
-    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center
@@ -1706,7 +1706,7 @@ body ::selection {
     text-align: left
   }
   .screen-12__body {
-    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center
